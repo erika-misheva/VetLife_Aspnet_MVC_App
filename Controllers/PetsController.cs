@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using VetLife.Data;
 using VetLife.Data.Enums;
 using VetLife.Data.Services;
@@ -14,18 +15,29 @@ namespace VetLife.Controllers
     {
         private readonly IPetsService _service;
         private readonly AppDbContext _context;
+        private readonly IMemoryCache _cache;
+        private readonly string _cacheKey = "PetsIndexCacheKey";
 
-        public PetsController(IPetsService service, AppDbContext context)
+        public PetsController(IPetsService service, AppDbContext context, IMemoryCache cache)
         {
             _service = service;
             _context = context;
+            _cache = cache;
         }
 
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-            ViewData["ActivePage"] = "Pets";
-            var pets = await _service.GetAllAsync(p => p.Owner);
+            if (!_cache.TryGetValue(_cacheKey, out IEnumerable<Pet> pets))
+            {
+                ViewData["ActivePage"] = "Pets";
+                pets = await _service.GetAllAsync(p => p.Owner);
+                var cacheOptions = new MemoryCacheEntryOptions()
+                    .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(5));
+
+                _cache.Set(_cacheKey, pets, cacheOptions);
+            }
 
             return View(pets);
         }
@@ -42,6 +54,7 @@ namespace VetLife.Controllers
             return View(pet);
         }
 
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             var owners = _context.Owners
@@ -56,6 +69,7 @@ namespace VetLife.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create(CreatePetVM model)
         {
             if (!ModelState.IsValid)
@@ -99,6 +113,7 @@ namespace VetLife.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var pet = await _service.GetPetByIdAsync(id);
@@ -129,6 +144,7 @@ namespace VetLife.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,OwnerId,PetType,ProfilePictureURL,BirthDate,Race,IsNeutered,SelectedVaccines,MedicalHistory,Operations")] CreatePetVM model)
         {
             if (!ModelState.IsValid)
@@ -168,6 +184,7 @@ namespace VetLife.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             try

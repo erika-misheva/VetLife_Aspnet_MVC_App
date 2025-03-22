@@ -19,6 +19,7 @@ namespace VetLife.Controllers
             _context = context;
         }
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteConfirmed(string id)
         {
             if (id.Contains("-")) 
@@ -114,6 +115,7 @@ namespace VetLife.Controllers
             return RedirectToAction("Manage", new { petId = model.PetId });
         }
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteVaccine(int petId, int vaccineId)
         {
             var petVaccine = _context.PetVaccine

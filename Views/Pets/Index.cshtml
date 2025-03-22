@@ -45,7 +45,7 @@
                                 <b>Neutered:</b> @(item.IsNeutered ? "Yes" : "No")
                             </p>
                             <p class="card-text">
-                                <b>Owner: </b> @item.Owner.Name @item.Owner.Surname 
+                                <b>Owner: </b> @item.Owner.GetFullName()
                             </p>
                         </div>
                     </div>

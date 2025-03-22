@@ -17,7 +17,7 @@
         @foreach (var owner in Model)
         {
             <tr>
-                <td>@owner.Name @owner.Surname</td>
+                <td>@owner.GetFullName()</td>
                 <td>@owner.Age</td>
                 <td>
                     @if (!string.IsNullOrEmpty(owner.ProfilePictureURL))

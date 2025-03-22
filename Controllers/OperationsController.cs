@@ -21,6 +21,7 @@ namespace VetLife.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create(int petId)
         {
 
@@ -41,6 +42,7 @@ namespace VetLife.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create(CreateOperationVM viewModel)
         {
 
@@ -76,6 +78,7 @@ namespace VetLife.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var operation = await _service.GetByIdAsync(id);
@@ -100,6 +103,7 @@ namespace VetLife.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(CreateOperationVM operationVM)
         {
             if (!ModelState.IsValid)
@@ -134,6 +138,7 @@ namespace VetLife.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteConfirmed(int id)
         {
             var operation = _context.Operations.Find(id);

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using VetLife.Data;
 using VetLife.Data.ViewModels;
 using VetLife.Models;
@@ -12,12 +13,14 @@ namespace VetLife.Controllers
     public class MedicalHistoryController : Controller
     {
         private readonly AppDbContext _context;
+  
 
         public MedicalHistoryController(AppDbContext context)
         {
             _context = context;
         }
 
+        [Authorize(Roles = "admin")]
         public IActionResult Create(int petId)
         {
             var drugs = _context.Drugs.ToList();
@@ -33,6 +36,7 @@ namespace VetLife.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public IActionResult Create(TreatmentCreateViewModel viewModel)
         {
             if (!ModelState.IsValid)
@@ -60,7 +64,7 @@ namespace VetLife.Controllers
             return RedirectToAction("Details", "Pets", new { id = viewModel.PetId });
         }
 
-
+        [Authorize(Roles = "admin")]
         public IActionResult Edit(int id)
         {
             var treatment = _context.Treatments
@@ -86,6 +90,7 @@ namespace VetLife.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public IActionResult Edit(TreatmentEditViewModel viewModel)
         {
             if (!ModelState.IsValid)
@@ -145,6 +150,7 @@ namespace VetLife.Controllers
             return View(viewModel);
         }
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public IActionResult DeleteConfirmed(int id)
         {
             var treatment = _context.Treatments

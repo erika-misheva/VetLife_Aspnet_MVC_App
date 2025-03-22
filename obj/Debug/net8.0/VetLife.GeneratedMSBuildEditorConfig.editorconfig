@@ -17,145 +17,149 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VetLife
 build_property.RootNamespace = VetLife
-build_property.ProjectDir = C:\Users\Erika\Desktop\VetLife\VetLife\
+build_property.ProjectDir = C:\Users\Erika\Desktop\VetLife_Aspnet_MVC_App\VetLife\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Erika\Desktop\VetLife\VetLife
+build_property.MSBuildProjectDirectory = C:\Users\Erika\Desktop\VetLife_Aspnet_MVC_App\VetLife
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Account/Login.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Account/Register.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Account/RegisterCompleted.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Account/RegisterCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckNvbXBsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Drugs/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Drugs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJ1Z3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Drugs/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Drugs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJ1Z3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Drugs/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Drugs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJ1Z3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Drugs/Index.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Drugs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJ1Z3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/MedicalHistory/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/MedicalHistory/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbEhpc3RvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/MedicalHistory/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/MedicalHistory/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbEhpc3RvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/MedicalHistory/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/MedicalHistory/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbEhpc3RvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Operations/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Operations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Operations/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Operations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Operations/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Operations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Owners/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Owners/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Owners/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Owners/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Owners/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Owners/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Owners/Index.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Owners/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Pets/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Pets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Pets/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Pets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Pets/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Pets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Pets/Index.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Pets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/PetVaccine/Manage.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/PetVaccine/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0VmFjY2luZVxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Shared/_CreateItem.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/_CreateItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Shared/_DeleteModal.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/_DeleteModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWxldGVNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Shared/_Identity.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/_Identity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JZGVudGl0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Vaccines/Create.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Vaccines/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Vaccines/Details.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Vaccines/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Vaccines/Edit.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Vaccines/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Vaccines/Index.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Vaccines/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjY2luZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/_ViewImports.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/_ViewStart.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Erika/Desktop/VetLife/VetLife/Views/Shared/_Layout.cshtml]
+[C:/Users/Erika/Desktop/VetLife_Aspnet_MVC_App/VetLife/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fmh932boz6

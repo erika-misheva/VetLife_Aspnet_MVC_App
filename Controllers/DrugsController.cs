@@ -3,6 +3,7 @@ using VetLife.Data.Services;
 using VetLife.Data;
 using VetLife.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace VetLife.Controllers
 {
@@ -11,18 +12,30 @@ namespace VetLife.Controllers
     {
         private readonly IDrugsService _service;
         private readonly AppDbContext _context;
+        private readonly IMemoryCache _cache;
+        private readonly string _cacheKey = "DrugsIndexCacheKey";
 
-        public DrugsController(IDrugsService service, AppDbContext context)
+        public DrugsController(IDrugsService service, AppDbContext context, IMemoryCache cache)
         {
             _service = service;
             _context = context;
+            _cache = cache;
         }
         public async Task<IActionResult> Index()
         {
-            ViewData["ActivePage"] = "Drugs";
-            var drugs = await _service.GetAllAsync();
+            if (!_cache.TryGetValue(_cacheKey, out IEnumerable<Drug> drugs))
+            {
+                ViewData["ActivePage"] = "Drugs";
+                drugs = await _service.GetAllAsync(); 
 
-            return View(drugs);
+                var cacheOptions = new MemoryCacheEntryOptions()
+                    .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
+                    .SetSlidingExpiration(TimeSpan.FromMinutes(5));
+
+                _cache.Set(_cacheKey, drugs, cacheOptions);
+            }
+
+            return View(drugs); 
         }
         public async Task<IActionResult> Details(int id)
         {
@@ -36,13 +49,14 @@ namespace VetLife.Controllers
             return View(drug);
         }
 
-
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("Name, Manufacturer, Dosage, ManufacturedDate, ExpiryDate")] Drug drug)
         {
             if (!ModelState.IsValid)
@@ -50,9 +64,10 @@ namespace VetLife.Controllers
                 return View(drug);
             }
             await _service.AddAsync(drug);
+            _cache.Remove(_cacheKey);
             return RedirectToAction(nameof(Index));
         }
-
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id)
         {
             var drug = await _service.GetByIdAsync(id);
@@ -63,6 +78,7 @@ namespace VetLife.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id, Name, Manufacturer, Dosage, ManufacturedDate, ExpiryDate")] Drug drug)
         {
             if (!ModelState.IsValid)
@@ -70,10 +86,12 @@ namespace VetLife.Controllers
                 return View(drug);
             }
             await _service.UpdateAsync(id, drug);
+            _cache.Remove(_cacheKey);
             return RedirectToAction(nameof(Index));
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             try
@@ -89,6 +107,8 @@ namespace VetLife.Controllers
                 await _context.SaveChangesAsync();
 
                 await _service.DeleteAsync(id);
+
+                _cache.Remove(_cacheKey);
 
                 return RedirectToAction(nameof(Index));
             }

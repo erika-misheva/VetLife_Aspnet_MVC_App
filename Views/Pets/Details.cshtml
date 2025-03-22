@@ -94,7 +94,7 @@
                         <dd class="col-sm-8">@Model.Name</dd>
 
                         <dt class="col-sm-4">Owner</dt>
-                        <dd class="col-sm-8">@((Model.Owner != null) ? Model.Owner.Name + " " + Model.Owner.Surname : "No Owner")</dd>
+                        <dd class="col-sm-8">@((Model.Owner != null) ? Model.Owner.GetFullName() : "No Owner")</dd>
 
                         <dt class="col-sm-4">Pet Type</dt>
                         <dd class="col-sm-8">@Model.PetType</dd>

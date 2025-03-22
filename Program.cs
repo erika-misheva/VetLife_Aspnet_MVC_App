@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using VetLife.Data;
 using VetLife.Data.Services;
 using VetLife.Models;
+using Microsoft.Extensions.Caching.Memory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,8 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 });
+
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 

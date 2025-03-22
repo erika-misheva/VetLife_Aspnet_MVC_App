@@ -1,149 +1,163 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\",
+  "WorkspaceRootPath": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\appdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\shared\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\appdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\appdbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\medicalhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\medicalhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\petvaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\petvaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\drugs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\drugs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\petvaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\petvaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\drugs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\drugs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\petscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\medicalhistory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\medicalhistory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\medicalhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\medicalhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\petvaccine\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\petvaccine\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\vaccines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\vaccines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\vaccines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\vaccines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\operations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\operations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\shared\\_identity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\shared\\_identity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B758E097-590C-47E2-BA55-3F7446D12768}|..\\VetLife.Tests\\VetLife.Tests.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife.tests\\models\\ownertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B758E097-590C-47E2-BA55-3F7446D12768}|..\\VetLife.Tests\\VetLife.Tests.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\pets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\pets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\owners\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\owners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\shared\\_identity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\shared\\_identity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\drugs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\drugs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\drugs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\drugs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\medicalhistory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\medicalhistory\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\petvaccine\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\petvaccine\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\vaccines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\vaccines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\vaccines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\vaccines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\operations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\operations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\static\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\static\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\static\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\drugs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\drugs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\drugs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\views\\vaccines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\views\\vaccines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:views\\vaccines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\data\\viewmodels\\managepetvaccinesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\data\\viewmodels\\managepetvaccinesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:data\\viewmodels\\managepetvaccinesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife\\vetlife\\migrations\\20250213164322_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|c:\\users\\erika\\desktop\\vetlife_aspnet_mvc_app\\vetlife\\migrations\\20250213164322_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731F3982-F971-4E82-A4AB-8996D2073108}|VetLife.csproj|solutionrelative:migrations\\20250213164322_identityadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -154,7 +168,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,37 +176,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DrugsController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\DrugsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DrugsController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\DrugsController.cs",
-              "RelativeToolTip": "Controllers\\DrugsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:11:02.845Z"
+              "DocumentIndex": 0,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Shared\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T22:03:16.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OperationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\OperationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OperationsController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\OperationsController.cs",
-              "RelativeToolTip": "Controllers\\OperationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:10:48.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "PetsController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\PetsController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\PetsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PetsController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\PetsController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\PetsController.cs",
               "RelativeToolTip": "Controllers\\PetsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAAEcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T14:05:21.629Z"
             },
@@ -200,21 +203,213 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "OwnersController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\OwnersController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\OwnersController.cs",
               "RelativeDocumentMoniker": "Controllers\\OwnersController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\OwnersController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\OwnersController.cs",
               "RelativeToolTip": "Controllers\\OwnersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAADsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:23:34.691Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetVaccineController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\PetVaccineController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PetVaccineController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\PetVaccineController.cs",
+              "RelativeToolTip": "Controllers\\PetVaccineController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAHUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T12:32:02.496Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "VaccinesController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\VaccinesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VaccinesController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\VaccinesController.cs",
+              "RelativeToolTip": "Controllers\\VaccinesController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:05:59.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicalHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\MedicalHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicalHistoryController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\MedicalHistoryController.cs",
+              "RelativeToolTip": "Controllers\\MedicalHistoryController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:10:55.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\AppDbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbInitializer.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\AppDbInitializer.cs",
+              "RelativeToolTip": "Data\\AppDbInitializer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAYwKEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:45:24.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OperationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\OperationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OperationsController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\OperationsController.cs",
+              "RelativeToolTip": "Controllers\\OperationsController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAACwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:10:48.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DrugsController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\DrugsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DrugsController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\DrugsController.cs",
+              "RelativeToolTip": "Controllers\\DrugsController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAEUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:11:02.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:56:44.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OwnerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife.Tests\\Models\\OwnerTest.cs",
+              "RelativeDocumentMoniker": "..\\VetLife.Tests\\Models\\OwnerTest.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife.Tests\\Models\\OwnerTest.cs",
+              "RelativeToolTip": "..\\VetLife.Tests\\Models\\OwnerTest.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:57:28.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife.Tests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\VetLife.Tests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife.Tests\\MSTestSettings.cs",
+              "RelativeToolTip": "..\\VetLife.Tests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:50:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Pets\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pets\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Pets\\Details.cshtml",
+              "RelativeToolTip": "Views\\Pets\\Details.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T13:24:17.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Owners\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Owners\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Owners\\Details.cshtml",
+              "RelativeToolTip": "Views\\Owners\\Details.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T21:12:06.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Owners\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Owners\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Owners\\Index.cshtml",
+              "RelativeToolTip": "Views\\Owners\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T21:12:26.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T20:30:20.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\Owner.cs",
+              "RelativeDocumentMoniker": "Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\Owner.cs",
+              "RelativeToolTip": "Models\\Owner.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:27:51.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Pets\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Pets\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pets\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T13:18:07.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Identity.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\_Identity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Identity.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\_Identity.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Identity.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T17:57:55.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA/wCsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,72 +417,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\AppDbInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbInitializer.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\AppDbInitializer.cs",
-              "RelativeToolTip": "Data\\AppDbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:45:24.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MedicalHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\MedicalHistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MedicalHistoryController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\MedicalHistoryController.cs",
-              "RelativeToolTip": "Controllers\\MedicalHistoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:10:55.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VaccinesController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\VaccinesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VaccinesController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\VaccinesController.cs",
-              "RelativeToolTip": "Controllers\\VaccinesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:05:59.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Pets\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pets\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Pets\\Index.cshtml",
-              "RelativeToolTip": "Views\\Pets\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T13:18:07.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Owners\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Owners\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Owners\\Index.cshtml",
-              "RelativeToolTip": "Views\\Owners\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T21:12:26.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\MedicalHistory\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\MedicalHistory\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\MedicalHistory\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\MedicalHistory\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\MedicalHistory\\Details.cshtml",
               "RelativeToolTip": "Views\\MedicalHistory\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -295,11 +429,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Drugs\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Edit.cshtml",
               "RelativeToolTip": "Views\\Drugs\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -307,23 +441,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PetVaccineController.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\PetVaccineController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PetVaccineController.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Controllers\\PetVaccineController.cs",
-              "RelativeToolTip": "Controllers\\PetVaccineController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T12:32:02.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "Manage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\PetVaccine\\Manage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\PetVaccine\\Manage.cshtml",
               "RelativeDocumentMoniker": "Views\\PetVaccine\\Manage.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\PetVaccine\\Manage.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\PetVaccine\\Manage.cshtml",
               "RelativeToolTip": "Views\\PetVaccine\\Manage.cshtml",
               "ViewState": "AgIAACMAAAAAAAAAAAAAAGoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -331,23 +453,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Pets\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pets\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Pets\\Details.cshtml",
-              "RelativeToolTip": "Views\\Pets\\Details.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAIgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T13:24:17.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Drugs\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Details.cshtml",
               "RelativeToolTip": "Views\\Drugs\\Details.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAAAEkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -355,23 +465,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Owners\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Owners\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Owners\\Details.cshtml",
-              "RelativeToolTip": "Views\\Owners\\Details.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T21:12:06.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Vaccines\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Details.cshtml",
               "RelativeToolTip": "Views\\Vaccines\\Details.cshtml",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAAFAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -379,11 +477,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Vaccines\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Index.cshtml",
               "RelativeToolTip": "Views\\Vaccines\\Index.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -391,11 +489,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\LoginVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\LoginVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\LoginVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,11 +501,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Operations\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Operations\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Operations\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Operations\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Operations\\Details.cshtml",
               "RelativeToolTip": "Views\\Operations\\Details.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -415,11 +513,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -427,11 +525,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -439,11 +537,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAiwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -451,35 +549,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_Identity.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Shared\\_Identity.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Identity.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Shared\\_Identity.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Identity.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T17:57:55.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-17T20:30:20.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -487,23 +561,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:56:44.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\RegisterVM.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\RegisterVM.cs",
               "RelativeToolTip": "Data\\ViewModels\\RegisterVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -511,11 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\Static\\UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\Static\\UserRoles.cs",
               "RelativeDocumentMoniker": "Data\\Static\\UserRoles.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\Static\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\Static\\UserRoles.cs",
               "RelativeToolTip": "Data\\Static\\UserRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -523,11 +585,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "20250213164322_IdentityAdded.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Migrations\\20250213164322_IdentityAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Migrations\\20250213164322_IdentityAdded.cs",
               "RelativeDocumentMoniker": "Migrations\\20250213164322_IdentityAdded.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Migrations\\20250213164322_IdentityAdded.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Migrations\\20250213164322_IdentityAdded.cs",
               "RelativeToolTip": "Migrations\\20250213164322_IdentityAdded.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -535,11 +597,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,11 +609,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Pet.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Models\\Pet.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\Pet.cs",
               "RelativeDocumentMoniker": "Models\\Pet.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Models\\Pet.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Models\\Pet.cs",
               "RelativeToolTip": "Models\\Pet.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA5wBoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -559,11 +621,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Drugs\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Drugs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Drugs\\Create.cshtml",
               "RelativeToolTip": "Views\\Drugs\\Create.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -571,11 +633,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Vaccines\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Views\\Vaccines\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Views\\Vaccines\\Edit.cshtml",
               "RelativeToolTip": "Views\\Vaccines\\Edit.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -583,11 +645,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "ManagePetVaccinesViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
               "RelativeDocumentMoniker": "Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
-              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife\\VetLife\\Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
+              "ToolTip": "C:\\Users\\Erika\\Desktop\\VetLife_Aspnet_MVC_App\\VetLife\\Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
               "RelativeToolTip": "Data\\ViewModels\\ManagePetVaccinesViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

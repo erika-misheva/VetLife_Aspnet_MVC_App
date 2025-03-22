@@ -31,5 +31,10 @@ namespace VetLife.Models
         public string? ProfilePictureURL { get; set; }
 
         public ICollection<Pet> Pets { get; set; } = [];
+
+        public string GetFullName()
+        {
+            return $"{Name} {Surname}";
+        }
     }
 }
