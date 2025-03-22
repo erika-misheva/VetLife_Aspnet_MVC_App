@@ -1,0 +1,52 @@
+﻿@using VetLife.Data.ViewModels
+@model Operation
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h2>Operation Details</h2>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Operation Name</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+
+                <dt class="col-sm-3">Date</dt>
+                <dd class="col-sm-9">@Model.Date.ToString("dd MMMM yyyy, HH:mm")</dd>
+
+                <dt class="col-sm-3">Description</dt>
+                <dd class="col-sm-9">@(Model.Description ?? "No description provided")</dd>
+
+                <dt class="col-sm-3">Surgeon</dt>
+                <dd class="col-sm-9">@(Model.Surgeon ?? "Unknown")</dd>
+
+                <dt class="col-sm-3">Pet ID</dt>
+                <dd class="col-sm-9">@Model.PetId</dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+            <a asp-action="Details" asp-controller="Pets" asp-route-id="@Model.PetId" class="btn btn-outline-primary me-2">
+                <i class="bi bi-arrow-left"></i> Back to Pet Details
+            </a>
+            @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+            {
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary me-2">
+                    <i class="bi bi-pencil-square"></i> Edit
+                </a>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                    <i class="bi bi-trash px-1"></i>
+                    Delete
+                </button>
+            }
+        </div>
+        @Html.Partial("_DeleteModal", new DeleteModalViewModel
+   {
+       ModalId = "deleteModal",
+       ActionName = "DeleteConfirmed",
+       ControllerName = "Operation",
+       HiddenInputName = "id",
+       ItemId = Model.Id,
+       ConfirmationMessage = $"Are you sure you want to delete this operation and all its related data? This action cannot be undone."
+   })
+    </div>
+</div>

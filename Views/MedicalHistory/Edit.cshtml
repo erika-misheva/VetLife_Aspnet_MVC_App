@@ -1,0 +1,83 @@
+﻿@using VetLife.Data.ViewModels
+@model TreatmentEditViewModel
+
+@{
+    ViewData["Title"] = "Edit Treatment";
+}
+
+<h3 class="text-center mb-4">Edit Treatment</h3>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="PetId" />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="text-center">Disease Information</h4>
+                <div class="mb-3">
+                    <label asp-for="Disease.Name" class="form-label">Disease Name</label>
+                    <input asp-for="Disease.Name" class="form-control" />
+                    <span asp-validation-for="Disease.Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Disease.Severity" class="form-label">Severity</label>
+                    <input asp-for="Disease.Severity" class="form-control" />
+                    <span asp-validation-for="Disease.Severity" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Disease.StartTime" class="form-label">Start Date</label>
+                    <input asp-for="Disease.StartTime" class="form-control" type="date"
+                           value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                    <span asp-validation-for="Disease.StartTime" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Disease.EndTime" class="form-label">End Date</label>
+                    <input asp-for="Disease.EndTime" class="form-control" type="date" />
+                    <span asp-validation-for="Disease.EndTime" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Disease.Symptoms" class="form-label">Symptoms</label>
+                    <textarea asp-for="Disease.Symptoms" class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center">Treatment Information</h4>
+                <div class="mb-3">
+                    <label asp-for="Treatment.Notes" class="form-label">Notes</label>
+                    <textarea asp-for="Treatment.Notes" class="form-control" rows="6"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Treatment.Recommendations" class="form-label">Recommendations</label>
+                    <textarea asp-for="Treatment.Recommendations" class="form-control" rows="6"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-center mb-3">Drugs</h4>
+                <br />
+                <div class="border p-3 rounded" style="max-height: 300px; overflow-y: auto;">
+                    @foreach (var drug in Model.AvailableDrugs)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="SelectedDrugIds" value="@drug.Id"
+                            @(Model.SelectedDrugIds.Contains(drug.Id) ? "checked" : "") />
+                            <label class="form-check-label">@drug.Name</label>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary">Edit Treatment</button>
+            <a asp-action="Details" asp-controller="Pets" asp-route-id="@Model.PetId" class="btn btn-warning">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

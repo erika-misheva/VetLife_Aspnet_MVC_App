@@ -1,0 +1,54 @@
+﻿@using VetLife.Data.ViewModels
+@model CreateOperationVM
+
+@{
+    ViewData["Title"] = "Edit Operation";
+}
+
+<div class="d-flex align-items-center justify-content-center vh-90">
+    <div class="row w-100">
+        <div class="col-md-8 offset-md-2 mt-4 h-100">
+            <h3 class="mb-3 text-center">Edit Operation Details for Pet ID: @Model.PetId</h3>
+            <form asp-action="Edit" method="post">
+                <div class="row">
+                    <div class="col">
+                        <label asp-for="Surgeon" class="form-label">Name</label>
+                        <input asp-for="Name" type="text" class="form-control" placeholder="Operation Name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col">
+                        <label asp-for="Date" class="control-label">Date and Time of the Operation:</label>
+                        <input asp-for="Date" class="form-control" type="datetime-local"
+                               value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                        <span asp-validation-for="Date" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="row g-3">
+                    <div class="col">
+                        <label asp-for="Surgeon" class="form-label">Surgeon</label>
+                        <input asp-for="Surgeon" class="form-control" />
+                        <span asp-validation-for="Surgeon" class="text-danger"></span>
+                    </div>
+                    <div class="col">
+                        <label asp-for="Description" class="control-label">Notes</label>
+                        <textarea asp-for="Description" class="form-control" rows="6"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <input asp-for="PetId" type="hidden" />
+                <hr />
+                <div class="d-flex justify-content-center mt-4">
+                    <button type="submit" class="btn btn-primary me-2">Edit Operation</button>
+                    <a asp-action="Details" asp-controller="Pets" asp-route-id="@Model.PetId" class="btn btn-warning">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

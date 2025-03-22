@@ -1,0 +1,30 @@
+﻿@model IEnumerable<VetLife.Models.Drug>
+
+<h1>Drug List</h1>
+
+<table class="table table-success table-striped table-bordered border-white">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Manufacturer</th>
+            <th>Produced Date</th>
+            <th>Expiry Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var drug in Model)
+        {
+            <tr>
+                <td>@drug.Name</td>
+                <td>@drug.Manufacturer</td>
+                <td>@drug.ManufacturedDate.ToShortDateString()</td>
+                <td>@drug.ExpiryDate.ToShortDateString()</td>
+                <td>
+                    <a href="@Url.Action("Details", "Drugs", new { id = drug.Id })">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@await Html.PartialAsync("_CreateItem", "Drugs");

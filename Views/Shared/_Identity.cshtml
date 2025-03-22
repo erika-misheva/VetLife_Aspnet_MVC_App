@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager;
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="d-flex justify-content-end">
+        <form asp-controller="Account" asp-action="Logout">
+            <button class="btn btn-outline-danger my-2 my-sm-0">
+                <i class="bi bi-box-arrow-in-right"></i> Log out
+            </button>
+        </form>
+    </div>
+}
+else
+{
+    <div class="d-flex justify-content-end mb-2">
+        <a asp-action="Login" asp-controller="Account" class="btn btn-outline-primary me-2">
+            <i class="bi bi-box-arrow-in-right"></i>
+            Log in
+        </a>
+
+        <a asp-action="Register" asp-controller="Account" class="btn btn-primary">
+            <i class="bi bi-person-plus"></i>
+            Sign-up
+        </a>
+    </div>
+}
