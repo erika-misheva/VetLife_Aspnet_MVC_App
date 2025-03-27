@@ -14,7 +14,7 @@ namespace VetLife.Data.ViewModels
 
         [Display(Name = "Owner")]
         [Required(ErrorMessage = "You must select an owner")]
-        public int OwnerId { get; set; } // Updated to bind only the ID
+        public int OwnerId { get; set; } 
 
         [Display(Name = "Type of pet")]
         [Required(ErrorMessage = "You must select a pet type")]

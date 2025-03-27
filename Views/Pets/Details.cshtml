@@ -78,7 +78,6 @@
             <h1 class="display-3 bg-info text-white text-center">Details for @Model.Name</h1>
             <div class="row">
                 <div class="col-md-4">
-                    <h1>@User.IsInRole("admin")</h1>
                     @if (!string.IsNullOrWhiteSpace(Model.ProfilePictureURL))
                     {
                         <img src="@Model.ProfilePictureURL" class="img-fluid img-thumbnail" alt="@Model.Name">

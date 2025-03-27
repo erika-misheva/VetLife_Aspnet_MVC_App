@@ -5,7 +5,7 @@
 }
 @* 
  *@
-<div class="row">
+<div class="row vh-90 shadow">
     <div class="col-md-8 offset-2 mt-4">
         <h3 class="mb-3">Add New Owner</h3>
         <form asp-action="Create" method="post">
@@ -51,9 +51,11 @@
             <button type="button" id="addPetButton" class="btn btn-primary">Add Pet</button>
 
             <hr />
+            <div class="mb-4 d-flex justify-content-center gap-3">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-action="Index" class="btn btn btn-warning">Cancel</a>
+            </div>
 
-            <button type="submit" class="btn btn-primary">Create</button>
-            <a asp-action="Index" class="btn btn btn-warning">Cancel</a>
         </form>
     </div>
 </div>

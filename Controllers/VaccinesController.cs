@@ -34,7 +34,7 @@ namespace VetLife.Controllers
 
                 _cache.Set(_cacheKey, vaccines, cacheOptions);
             }
-
+            ViewData["ActivePage"] = "Vaccines";
             return View(vaccines);
         }
         public async Task<IActionResult> Details(int id)

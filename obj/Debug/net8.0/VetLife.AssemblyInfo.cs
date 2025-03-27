@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VetLife")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cce0b9983057f84050fff58e1225824a0f87aa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ff0c2d877ea46b7555f02694c18f3c65e257d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("VetLife")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VetLife")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

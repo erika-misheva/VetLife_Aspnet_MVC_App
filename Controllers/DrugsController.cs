@@ -25,7 +25,7 @@ namespace VetLife.Controllers
         {
             if (!_cache.TryGetValue(_cacheKey, out IEnumerable<Drug> drugs))
             {
-                ViewData["ActivePage"] = "Drugs";
+
                 drugs = await _service.GetAllAsync(); 
 
                 var cacheOptions = new MemoryCacheEntryOptions()
@@ -34,7 +34,7 @@ namespace VetLife.Controllers
 
                 _cache.Set(_cacheKey, drugs, cacheOptions);
             }
-
+            ViewData["ActivePage"] = "Drugs";
             return View(drugs); 
         }
         public async Task<IActionResult> Details(int id)

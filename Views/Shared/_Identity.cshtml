@@ -5,7 +5,7 @@
 {
     var user = await UserManager.GetUserAsync(User);
 
-    <div class="d-flex justify-content-end align-items-center gap-2">
+    <div class="d-flex justify-content-end align-items-center gap-2 mb-2">
         <span class="btn btn-outline-secondary">Hello, @user?.UserName</span>
 
         <form asp-controller="Account" asp-action="Logout" method="post">

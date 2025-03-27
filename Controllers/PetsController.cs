@@ -28,9 +28,13 @@ namespace VetLife.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Login", "Account");
+            }
             if (!_cache.TryGetValue(_cacheKey, out IEnumerable<Pet> pets))
             {
-                ViewData["ActivePage"] = "Pets";
+             
                 pets = await _service.GetAllAsync(p => p.Owner);
                 var cacheOptions = new MemoryCacheEntryOptions()
                     .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
@@ -38,7 +42,7 @@ namespace VetLife.Controllers
 
                 _cache.Set(_cacheKey, pets, cacheOptions);
             }
-
+            ViewData["ActivePage"] = "Pets";
             return View(pets);
         }
         public async Task<IActionResult> Details(int id)

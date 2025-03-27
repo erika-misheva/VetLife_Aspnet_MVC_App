@@ -27,7 +27,7 @@ namespace VetLife.Controllers
         {
             if (!_cache.TryGetValue(_cacheKey, out IEnumerable<Owner> owners))
             {
-                ViewData["ActivePage"] = "Owners";
+               
                 owners = await _ownersService.GetAllAsync(o => o.Pets);
                 var cacheOptions = new MemoryCacheEntryOptions()
                     .SetAbsoluteExpiration(TimeSpan.FromMinutes(10))
@@ -35,7 +35,7 @@ namespace VetLife.Controllers
 
                 _cache.Set(_cacheKey, owners, cacheOptions);
             }
-
+            ViewData["ActivePage"] = "Owners";
             return View(owners);
         }
         public async Task<IActionResult> Details(int id)
