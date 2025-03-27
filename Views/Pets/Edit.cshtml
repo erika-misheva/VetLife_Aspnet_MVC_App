@@ -1,0 +1,123 @@
+﻿@using VetLife.Data.ViewModels
+@model CreatePetVM
+
+@{
+    ViewData["Title"] = "Edit Pet";
+}
+
+<div class="d-flex align-items-center justify-content-center vh-90 shadow">
+    <div class="row w-100">
+        <div class="col-md-8 offset-md-2 mt-4 h-100">
+            <h3 class="mb-3 text-center">Edit Pet</h3>
+            <form asp-action="Edit" method="post">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group text-center">
+                    <img id="ProfilePicturePreview" class="border-info rounded-circle mb-3" style="max-width: 150px"
+                         src="@(string.IsNullOrEmpty(Model.ProfilePictureURL) ? "~/images/default-pet.png" : Model.ProfilePictureURL)" />
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" type="text" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="col">
+                        <label asp-for="OwnerId" class="control-label"></label>
+                        <select asp-for="OwnerId" class="form-control" asp-items="@(new SelectList(ViewBag.Owners, "Id", "FullName"))">
+                            <option value="">-- Select Owner --</option>
+                        </select>
+                        <span asp-validation-for="OwnerId" class="text-danger"></span>
+                    </div>
+                    <div class="col">
+                        <label asp-for="BirthDate" class="control-label"></label>
+                        <input asp-for="BirthDate" type="date" class="form-control" />
+                        <span asp-validation-for="BirthDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col">
+                        <label asp-for="PetType" class="control-label"></label>
+                        <select asp-for="PetType" class="form-control">
+                            <option value="">-- Select Pet Type --</option>
+                            @foreach (var petType in Enum.GetValues(typeof(VetLife.Data.Enums.PetType)))
+                            {
+                                <option value="@petType">@petType</option>
+                            }
+                        </select>
+                        <span asp-validation-for="PetType" class="text-danger"></span>
+                    </div>
+                    <div class="col">
+                        <label asp-for="Race" class="control-label"></label>
+                        <input asp-for="Race" type="text" class="form-control" />
+                        <span asp-validation-for="Race" class="text-danger"></span>
+                    </div>
+                    <div class="col text-center">
+                        <label asp-for="IsNeutered" class="control-label d-block"></label>
+                        <div class="d-flex justify-content-center">
+                            <input type="radio" asp-for="IsNeutered" value="true" class="m-2" /> Yes
+                            <input type="radio" asp-for="IsNeutered" value="false" class="m-2" /> No
+                        </div>
+                        <span asp-validation-for="IsNeutered" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <input asp-for="ProfilePictureURL" class="form-control mt-4" placeholder="Profile Picture URL" />
+                    <span asp-validation-for="ProfilePictureURL" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <h3 class="text-center">Vaccines</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Select</th>
+                                <th>Vaccine Name</th>
+                                <th>Manufacturer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var vaccine in ViewBag.Vaccines)
+                            {
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="SelectedVaccines" value="@vaccine.Id"
+                                        @if (Model.SelectedVaccines != null && Model.SelectedVaccines.Contains(vaccine.Id))
+                                        {
+                                            @:checked
+                                        } />
+                                    </td>
+                                    <td>@vaccine.Name</td>
+                                    <td>@vaccine.Manufacturer</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <hr />
+                <div class="d-flex justify-content-center mt-4 mb-4">
+                    <button type="submit" class="btn btn-primary me-2">Save Changes</button>
+                    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-warning">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#ProfilePictureURL').on('input', function () {
+                $('#ProfilePicturePreview').attr('src', $(this).val());
+            });
+
+            if ($('#ProfilePictureURL').val()) {
+                $('#ProfilePicturePreview').attr('src', $('#ProfilePictureURL').val());
+            }
+        });
+    </script>
+}

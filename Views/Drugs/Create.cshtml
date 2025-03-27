@@ -1,0 +1,46 @@
+﻿@model Drug
+
+@{
+    ViewData["Title"] = "Add New Drug";
+}
+
+<div class="row vh-90 shadow">
+    <div class="col-md-8 offset-2 mt-4">
+        <h3 class="mb-3">Add New Drug</h3>
+        <form asp-action="Create" method="post">
+            <div class="row">
+                <div class="col">
+                    <input asp-for="Name" type="text" class="form-control" placeholder="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="col">
+                    <input asp-for="Manufacturer" type="text" class="form-control" placeholder="Manufacturer" aria-label="Manufacturer" />
+                    <span asp-validation-for="Manufacturer" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col">
+                    <label asp-for="ManufacturedDate" class="control-label"></label>
+                    <input asp-for="ManufacturedDate" type="date" class="form-control" />
+                    <span asp-validation-for="ManufacturedDate" class="text-danger"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="ExpiryDate" class="control-label"></label>
+                    <input asp-for="ExpiryDate" type="date" class="form-control" />
+                    <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Dosage" class="control-label"></label>
+                <input asp-for="Dosage" class="form-control" />
+                <span asp-validation-for="Dosage" class="text-danger"></span>
+            </div>
+            <div class="mb-4 d-flex justify-content-center gap-3">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn btn-warning">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+

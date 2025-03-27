@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_Layout"; 
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger">
+        <h1 class="text-center">Access Denied</h1>
+        <p class="text-center">Sorry, but you do not have permission to view this page.</p>
+        <p class="text-center">If you believe this is an error, please contact the system administrator.</p>
+        <div class="text-center">
+            <a href="@Url.Action("Index", "Pets")" class="btn btn-primary">Back to Home</a>
+        </div>
+    </div>
+</div>

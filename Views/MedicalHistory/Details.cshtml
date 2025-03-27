@@ -1,0 +1,75 @@
+﻿@using VetLife.Data.ViewModels
+@model TreatmentDetailsViewModel
+
+@{
+    ViewData["Title"] = "Treatment Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h2>Treatment Details</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Disease Information</h3>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item"><strong>Name:</strong> @Model.Disease.Name</li>
+                        <li class="list-group-item"><strong>Severity:</strong> @Model.Disease.Severity</li>
+                        <li class="list-group-item"><strong>Start Time:</strong> @Model.Disease.StartTime.ToShortDateString()</li>
+                        <li class="list-group-item"><strong>End Time:</strong> @Model.Disease.EndTime?.ToShortDateString()</li>
+                        <li class="list-group-item"><strong>Symptoms:</strong> @Model.Disease.Symptoms</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Treatment Information</h3>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item"><strong>Notes:</strong> @Model.Treatment.Notes</li>
+                        <li class="list-group-item"><strong>Recommendations:</strong> @Model.Treatment.Recommendations</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Prescribed Drugs</h3>
+                    @if (Model.PrescribedDrugs != null && Model.PrescribedDrugs.Any())
+                    {
+                        <ul class="list-group mb-3">
+                            @foreach (var drug in Model.PrescribedDrugs)
+                            {
+                                <li class="list-group-item">@drug.Name</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p>No drugs prescribed.</p>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="card-footer d-flex justify-content-end">
+            <a asp-action="Details" asp-controller="Pets" asp-route-id="@Model.PetId" class="btn btn-outline-primary me-2">
+                <i class="bi bi-arrow-left"></i> Back to Pet Details
+            </a>
+            @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+            {
+                <a asp-action="Edit" asp-route-id="@Model.Treatment.Id" class="btn btn-primary me-2">
+                    <i class="bi bi-pencil-square"></i> Edit
+                </a>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteTretmantModal-@Model.Treatment.Id">
+                    <i class="bi bi-trash px-1"></i> Delete
+                </button>
+            }
+        </div>
+        @Html.Partial("_DeleteModal", new DeleteModalViewModel
+   {
+       ModalId = "deleteTretmantModal-" + Model.Treatment.Id,
+       ActionName = "DeleteConfirmed",
+       ControllerName = "MedicalHistory",
+       HiddenInputName = "id",
+       ItemId = Model.Treatment.Id,
+       ConfirmationMessage = $"Are you sure you want to delete this treatment and all its related data? This action cannot be undone."
+   })
+    </div>
+</div>
